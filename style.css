@@ -1,0 +1,70 @@
+/* Wire frame */
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: cursive;
+}
+body {
+    margin: 0;
+    background-color: #FFFAFF;
+}
+header {
+    height: 30rem;
+    z-index: 999;
+}
+footer {
+    display: flex;
+}
+/****** images ******/
+
+#icon {
+    max-width: 8rem;
+    height: auto;
+    z-index: 999;
+}
+#moodboard {
+    max-width: 30rem;
+    height: auto;
+    box-shadow: inset -10px -10px 10px 20px white;
+}
+#main {
+    display: flex;
+    align-items: center;
+}
+/****** divider ******/
+#line {
+    filter: blur(0.5px);
+    width: 80rem;
+    height: 2px;
+    background-color: #3D2B1F;
+}
+
+/****** links ******/
+.nav-link {
+    text-decoration: none;
+    color: #3D2B1F;
+    font-size: 2rem;
+    z-index: 999;
+}
+#nav-bar {
+    height: 10rem;
+    display: flex;
+    width: 100vw;
+    background-color: #FFD1DC;
+
+}
+/****** body ******/
+#side-bar {
+    margin: 0;
+    top: -30rem;
+    width: 30rem;
+    height: 100vh;
+    background-color: #FFD1DC;
+    position: relative;
+    z-index: 0;
+    opacity: 0.4;
+}
+#horizontal-flex {
+    display: flex;
+}
