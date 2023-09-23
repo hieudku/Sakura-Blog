@@ -10,17 +10,23 @@ body {
     background-color: #FFFAFF;
 }
 header {
-    height: 30rem;
+    height: 55rem;
     z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     display: flex;
 }
 /****** images ******/
-
+#sakura-branch {
+    position: absolute;
+    width: 100vw;
+}
 #icon {
-    max-width: 8rem;
-    height: auto;
+    max-width: 6rem;
+    height: 6rem;
     z-index: 999;
 }
 #moodboard {
@@ -43,22 +49,23 @@ footer {
 /****** links ******/
 .nav-link {
     text-decoration: none;
-    color: #3D2B1F;
-    font-size: 2rem;
+    color:#3D2B1F ;
+    font-size: 1.6rem;
     z-index: 999;
 }
 #nav-bar {
     height: 10rem;
     display: flex;
+    gap: 5rem;
     width: 100vw;
-    background-color: #FFD1DC;
-
+    justify-content: center;
+    align-items: center;
+    background-color: #3D2B1F, 0,5;
 }
 /****** body ******/
 #side-bar {
     margin: 0;
-    top: -30rem;
-    width: 30rem;
+    width: 22rem;
     height: 100vh;
     background-color: #FFD1DC;
     position: relative;
