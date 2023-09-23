@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 footer {
     display: flex;
@@ -23,6 +24,8 @@ footer {
 #sakura-branch {
     position: absolute;
     width: 100vw;
+    opacity: 0.8;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 #icon {
     max-width: 6rem;
@@ -52,6 +55,7 @@ footer {
     color:#3D2B1F ;
     font-size: 1.6rem;
     z-index: 999;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 #nav-bar {
     height: 10rem;
@@ -64,14 +68,24 @@ footer {
 }
 /****** body ******/
 #side-bar {
+    top: 0.5rem;
     margin: 0;
-    width: 22rem;
-    height: 100vh;
+    width: 15rem;
+    height: 50rem;
     background-color: #FFD1DC;
     position: relative;
     z-index: 0;
-    opacity: 0.4;
+}
+#right-bar {
+    top: 0.5rem;
+    margin: 0;
+    width: 15rem;
+    height: 50rem;
+    background-color: #FFD1DC;
+    position: relative;
+    z-index: 0;
 }
 #horizontal-flex {
     display: flex;
+    justify-content: space-between;
 }
