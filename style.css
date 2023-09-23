@@ -33,13 +33,18 @@ footer {
     z-index: 999;
 }
 #moodboard {
-    max-width: 30rem;
+    max-width: 45rem;
     height: auto;
     box-shadow: inset -10px -10px 10px 20px white;
 }
 #main {
+    margin-top: 5rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+
 }
 /****** divider ******/
 #line {
@@ -68,24 +73,45 @@ footer {
 }
 /****** body ******/
 #side-bar {
-    top: 0.5rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0.3rem;
     margin: 0;
     width: 15rem;
-    height: 50rem;
+    height: 52rem;
     background-color: #FFD1DC;
-    position: relative;
     z-index: 0;
 }
 #right-bar {
-    top: 0.5rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    top: 0.3rem;
     margin: 0;
     width: 15rem;
-    height: 50rem;
+    height: 52rem;
     background-color: #FFD1DC;
-    position: relative;
+    position: sticky;
     z-index: 0;
 }
 #horizontal-flex {
     display: flex;
     justify-content: space-between;
+}
+
+/****** content ******/
+.date-title {
+    font-size: 2rem;
+}
+.article-title {
+    font-size: 2rem;
+}
+.content-image {
+    width: 20rem;
+    height: auto;
+}
+.content-photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
