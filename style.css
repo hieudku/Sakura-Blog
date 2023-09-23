@@ -7,15 +7,16 @@ html {
 }
 body {
     margin: 0;
-    background-color: #FFFAFF;
+    background-color: #FFD1DC;
+
 }
 header {
     height: 55rem;
-    z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: #FFD1DC;
 }
 footer {
     display: flex;
@@ -49,7 +50,7 @@ footer {
 /****** divider ******/
 #line {
     filter: blur(0.5px);
-    width: 80rem;
+    width: 50rem;
     height: 2px;
     background-color: #3D2B1F;
 }
@@ -59,7 +60,6 @@ footer {
     text-decoration: none;
     color:#3D2B1F ;
     font-size: 1.6rem;
-    z-index: 999;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 #nav-bar {
@@ -79,7 +79,7 @@ footer {
     margin: 0;
     width: 15rem;
     height: 52rem;
-    background-color: #FFD1DC;
+    background-color: #FFFAFF;
     z-index: 0;
 }
 #right-bar {
@@ -88,13 +88,14 @@ footer {
     margin: 0;
     width: 15rem;
     height: 52rem;
-    background-color: #FFD1DC;
+    background-color: #FFFAFF;
     position: sticky;
     z-index: 0;
 }
 #horizontal-flex {
     display: flex;
     justify-content: space-between;
+    background-color: #FFFAFF;
 }
 
 /****** content ******/
@@ -113,5 +114,5 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items:first baseline;
 }
